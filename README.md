@@ -8,8 +8,16 @@ Para ejecutar el proyecto es necesario que cuente con una versión de Python 3.0
 
 ## Uso
 
-Para ejecutar la aplicación, solo tiene que correr el siguiente comando en la carpeta base del proyecto:
+Para ejecutar la aplicación, primero tiene que correr el siguiente comando en la carpeta base del proyecto:
 ```sh
 python manage.py runserver
 ```
 Después podrá acceder a esta desde un navegador web en la siguiente dirección [http://127.0.0.1:8000/polls/](http://127.0.0.1:8000/polls/).
+
+Podrá acceder a la sección de administradores en la siguiente dirección 
+[http://127.0.0.1:8000/admin/](http://127.0.0.1:8000/admin/).
+Con el siguiente Username y Password:
+
+Username: admin
+
+Password: qwerty
