@@ -1,0 +1,13 @@
+{% extends "polls/base.html" %}
+{% block content %}
+    <a href="{% url 'polls:index' %}">Regresar a encuestas</a>
+    <h1>{{ question.question_text }}</h1>
+
+    <ul>
+    {% for choice in question.choice_set.all %}
+        <li>{{ choice.choice_text|ljust:"50" }} -- {{ choice.votes }} voto{{ choice.votes|pluralize }}</li>
+    {% endfor %}
+    </ul>
+
+    <a href="{% url 'polls:detail' question.id %}">¿Votar otra vez?</a>
+{% endblock content %}
