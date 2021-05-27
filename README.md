@@ -21,3 +21,5 @@ Con el siguiente Username y Password:
 Username: admin
 
 Password: qwerty
+
+![Admin view](https://images2.imgbox.com/1f/71/NrcUJF3U_o.png)
